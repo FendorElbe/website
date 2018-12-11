@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+
+    <script type="module" src="custom.js"></script>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="custom.css">
+
+    <link href='simplelightbox-master/dist/simplelightbox.min.css' rel='stylesheet' type='text/css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script type="text/javascript" src="simplelightbox-master/dist/simple-lightbox.js"></script>
+
+    <title>Südtirol 2017</title>
+  </head>
+  <body>
+    <?php
+    include 'script.php';
+
+    /** settings **/
+    $images_dir = 'img/';
+    $thumbs_dir = 'preload-images-thumbs/';
+    $thumbs_width = 200;
+    $images_per_row = 3;
+
+    /** generate photo gallery **/
+    $image_files = get_files($images_dir);
+    if(count($image_files)) {
+    	$index = 0;
+    	foreach($image_files as $index=>$file) {
+    		$index++;
+    		$thumbnail_image = $thumbs_dir.$file;
+    		if(!file_exists($thumbnail_image)) {
+    			$extension = get_file_extension($thumbnail_image);
+    			if($extension) {
+    				make_thumb($images_dir.$file,$thumbnail_image,$thumbs_width);
+    			}
+    		}
+    		echo '<a href="',$images_dir.$file,'" class="photo-link smoothbox" rel="gallery"><img src="',$thumbnail_image,'" /></a>';
+    		if($index % $images_per_row == 0) { echo '<div class="clear"></div>'; }
+    	}
+    	echo '<div class="clear"></div>';
+    }
+    else {
+    	echo '<p>There are no images in this gallery.</p>';
+    }
+    ?>
+  </body>
+</html>
