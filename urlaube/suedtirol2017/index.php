@@ -23,7 +23,7 @@
         <?php
         $handle = opendir(dirname(realpath(__FILE__)).'/img/');
         $count = 0;
-        $captions_lines = file("img/captions.txt");
+        $captions_lines = file("captions.txt");
         while($file = readdir($handle)){
           if($file !== '.' && $file !== '..'){
             if($count == 0){
