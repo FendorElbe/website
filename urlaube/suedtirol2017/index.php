@@ -24,9 +24,8 @@
         $handle = opendir(dirname(realpath(__FILE__)).'/img/');
         $count = 0;
         while($file = readdir($handle)){
-          $count++;
           if($file !== '.' && $file !== '..'){
-            if($count == 1){
+            if($count++ == 0){
               echo "test1";
               echo '
               <div class="carousel-item slideimg active">
