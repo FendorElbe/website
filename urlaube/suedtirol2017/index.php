@@ -33,8 +33,8 @@
                 <div class="carousel-caption w-100 px-5 d-none d-md-block">
                   <h5>Bild 1</h5>
                   <p>Dieses Bild ist entstanden, als ich mal langweilig war und deshla habe ich diesen dummen Text geschrieben um zu probiere was passsier twenn hier ein längere Text steht. Mal sehen. Ist adas scho nlang genug? ICh weiß es nicht.. Ich bin eine Maus.</p>
-                  </div>
-                  </div>
+                </div>
+              </div>
             ';
             }
             else{
@@ -44,8 +44,8 @@
                 <div class="carousel-caption w-100 px-5 d-none d-md-block">
                   <h5>Bild 1</h5>
                   <p>Dieses Bild ist entstanden, als ich mal langweilig war und deshla habe ich diesen dummen Text geschrieben um zu probiere was passsier twenn hier ein längere Text steht. Mal sehen. Ist adas scho nlang genug? ICh weiß es nicht.. Ich bin eine Maus.</p>
-                  </div>
-                  </div>
+                </div>
+              </div>
             ';
             }
           }
