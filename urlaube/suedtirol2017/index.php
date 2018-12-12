@@ -22,16 +22,33 @@
     <title>Südtirol 2017</title>
   </head>
   <body>
-    TEST
-    <ul>
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
         <?php
         $handle = opendir(dirname(realpath(__FILE__)).'/img/');
         while($file = readdir($handle)){
           if($file !== '.' && $file !== '..'){
-            echo '<img src="img/'.$file.'" border="0" />';
+            echo '
+            <div class="carousel-item slideimg active">
+              <img class="d-block oversize" src="img/'.$file.'" alt="First slide">
+              <div class="carousel-caption w-100 px-5 d-none d-md-block">
+                <h5>Bild 1</h5>
+                <p>Dieses Bild ist entstanden, als ich mal langweilig war und deshla habe ich diesen dummen Text geschrieben um zu probiere was passsier twenn hier ein längere Text steht. Mal sehen. Ist adas scho nlang genug? ICh weiß es nicht.. Ich bin eine Maus.</p>
+              </div>
+            </div>
+            ';
           }
         }
         ?>
-    </ul>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
   </body>
 </html>
