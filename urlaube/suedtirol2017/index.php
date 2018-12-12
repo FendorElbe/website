@@ -25,13 +25,12 @@
     TEST
     <ul>
         <?php
-          $directory = "img";
-          $images = glob($directory . "/*.jpg");
-
-          foreach($images as $image)
-          {
-            echo '<img src="'$image'" border="0" />';
+        $handle = opendir(dirname(realpath(__FILE__)).'/img/');
+        while($file = readdir($handle)){
+          if($file !== '.' && $file !== '..'){
+            echo '<img src="img/'.$file.'" border="0" />';
           }
+        }
         ?>
     </ul>
   </body>
