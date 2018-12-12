@@ -23,15 +23,16 @@
         <?php
         $handle = opendir(dirname(realpath(__FILE__)).'/img/');
         $count = 0;
+        $captions_lines = file("img/captions.txt");
         while($file = readdir($handle)){
           if($file !== '.' && $file !== '..'){
-            if($count++ == 0){
+            if($count == 0){
               echo '
               <div class="carousel-item slideimg active">
                 <img class="d-block oversize" src="img/'.$file.'" alt="First slide">
                 <div class="carousel-caption w-100 px-5 d-none d-md-block">
-                  <h5>'.$file.'</h5>
-                  <p>Dieses Bild ist entstanden, als ich mal langweilig war und deshla habe ich diesen dummen Text geschrieben um zu probiere was passsier twenn hier ein längere Text steht. Mal sehen. Ist adas scho nlang genug? ICh weiß es nicht.. Ich bin eine Maus.</p>
+                  <h5>'.$captions_lines[$count].'</h5>
+                  <p>'.$captions_lines[$count++].'</p>
                 </div>
               </div>
             ';
@@ -41,8 +42,8 @@
               <div class="carousel-item slideimg">
                 <img class="d-block oversize" src="img/'.$file.'" alt="First slide">
                 <div class="carousel-caption w-100 px-5 d-none d-md-block">
-                  <h5>'.$file.'</h5>
-                  <p>Dieses Bild ist entstanden, als ich mal langweilig war und deshalb habe ich diesen dummen Text geschrieben um zu probiere was passsier twenn hier ein längere Text steht. Mal sehen. Ist adas scho nlang genug? ICh weiß es nicht.. Ich bin eine Maus.</p>
+                  <h5>'.$captions_lines[$count].'</h5>
+                  <p>'.$captions_lines[$count++].'</p>
                 </div>
               </div>
             ';
