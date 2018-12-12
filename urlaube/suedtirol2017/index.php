@@ -25,14 +25,12 @@
     TEST
     <ul>
         <?php
-          $dirname = "img/";
-          $images = scandir($dirname);
-          shuffle($images);
-          $ignore = Array(".", "..");
-          foreach($images as $curimg){
-            if(!in_array($curimg, $ignore)) {
-                echo "<li><a href='".$dirname.$curimg."'><img src='img.php?src=".$dirname.$curimg."&w=300&zc=1' alt='' /></a></li>n ";
-            }
+          $directory = "img";
+          $images = glob($directory . "/*.jpg");
+
+          foreach($images as $image)
+          {
+            echo $image;
           }
         ?>
     </ul>
