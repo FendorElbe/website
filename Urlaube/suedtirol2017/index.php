@@ -22,6 +22,7 @@
     <title>Südtirol 2017</title>
   </head>
   <body>
+    TEST
     <ul>
         <?php
           $dirname = "img/";
