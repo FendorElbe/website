@@ -30,7 +30,7 @@
 
           foreach($images as $image)
           {
-            echo $image;
+            echo '<img src="'$image'" border="0" />';
           }
         ?>
     </ul>
