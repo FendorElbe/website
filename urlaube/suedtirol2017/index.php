@@ -20,11 +20,11 @@
   <body>
     <div class="container">
       <div class="row mt-5">
-        <div class="col-sm">
-          <?php
-          $directories = glob("." . '/*', GLOB_ONLYDIR);
-          foreach ($directories as $directory){
-            echo '
+        <?php
+        $directories = glob("." . '/*', GLOB_ONLYDIR);
+        foreach ($directories as $directory){
+          echo '
+          <div class="col-sm">
             <div class="card" style="width: 18rem;">
             <img class="card-img-top" src="..." alt="Card image cap">
               <div class="card-body">
@@ -33,10 +33,10 @@
                 <a href="'.$directory.'/index.php" class="btn btn-primary">Rein!</a>
               </div>
             </div>
-            ';
-          }
-          ?>
-        </div>
+          </div>
+          ';
+        }
+        ?>
       </div>
     </div>
   </body>
