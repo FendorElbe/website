@@ -15,10 +15,6 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="custom.css">
 
-    <link href='simplelightbox-master/dist/simplelightbox.min.css' rel='stylesheet' type='text/css'>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <script type="text/javascript" src="simplelightbox-master/dist/simple-lightbox.js"></script>
-
     <title>Südtirol 2017</title>
   </head>
   <body>
@@ -29,7 +25,7 @@
         while($file = readdir($handle)){
           if($file !== '.' && $file !== '..'){
             echo '
-            <div class="carousel-item slideimg active">
+            <div class="carousel-item slideimg">
               <img class="d-block oversize" src="img/'.$file.'" alt="First slide">
               <div class="carousel-caption w-100 px-5 d-none d-md-block">
                 <h5>Bild 1</h5>
