@@ -22,6 +22,18 @@
     <title>Südtirol 2017</title>
   </head>
   <body>
-    empty
+    <ul>
+        <?php
+          $dirname = "img/";
+          $images = scandir($dirname);
+          shuffle($images);
+          $ignore = Array(".", "..");
+          foreach($images as $curimg){
+            if(!in_array($curimg, $ignore)) {
+                echo "<li><a href='".$dirname.$curimg."'><img src='img.php?src=".$dirname.$curimg."&w=300&zc=1' alt='' /></a></li>n ";
+            }
+          }
+        ?>
+    </ul>
   </body>
 </html>
