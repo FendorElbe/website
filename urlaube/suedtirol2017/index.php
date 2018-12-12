@@ -26,7 +26,7 @@
           echo '
           <div class="col-sm">
             <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="..." alt="Card image cap">
+            <img class="card-img-top" src="'.$directory.'/thumb.jpg" alt="Card image cap">
               <div class="card-body">
                 <h5 class="card-title">'.$directory.'</h5>
                 <p class="card-text">TODO PLACEHOLDER</p>
