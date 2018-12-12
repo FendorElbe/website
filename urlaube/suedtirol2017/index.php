@@ -27,6 +27,7 @@
           $count++;
           if($file !== '.' && $file !== '..'){
             if($count == 1){
+              echo "test1";
               echo '
               <div class="carousel-item slideimg active">
                 <img class="d-block oversize" src="img/'.$file.'" alt="First slide">
@@ -38,12 +39,13 @@
             ';
             }
             else{
+              echo "test2";
               echo '
               <div class="carousel-item slideimg">
                 <img class="d-block oversize" src="img/'.$file.'" alt="First slide">
                 <div class="carousel-caption w-100 px-5 d-none d-md-block">
                   <h5>Bild 1</h5>
-                  <p>Dieses Bild ist entstanden, als ich mal langweilig war und deshla habe ich diesen dummen Text geschrieben um zu probiere was passsier twenn hier ein längere Text steht. Mal sehen. Ist adas scho nlang genug? ICh weiß es nicht.. Ich bin eine Maus.</p>
+                  <p>Dieses Bild ist entstanden, als ich mal langweilig war und deshalb habe ich diesen dummen Text geschrieben um zu probiere was passsier twenn hier ein längere Text steht. Mal sehen. Ist adas scho nlang genug? ICh weiß es nicht.. Ich bin eine Maus.</p>
                 </div>
               </div>
             ';
