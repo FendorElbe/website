@@ -18,20 +18,26 @@
     <title>Südtirol 2017</title>
   </head>
   <body>
-    <?php
-    $directories = glob("." . '/*', GLOB_ONLYDIR);
-    foreach ($directories as $directory){
-      echo '
-        <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="..." alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">'.$directory.'</h5>
-          <p class="card-text">TODO PLACEHOLDER</p>
-          <a href="'$directory'/index.php" class="btn btn-primary">Rein!</a>
-          </div>
+    <div class="container">
+      <div class="row mt-5">
+        <div class="col-sm">
+          <?php
+          $directories = glob("." . '/*', GLOB_ONLYDIR);
+          foreach ($directories as $directory){
+            echo '
+            <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="..." alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">'.$directory.'</h5>
+                <p class="card-text">TODO PLACEHOLDER</p>
+                <a href="'.$directory.'/index.php" class="btn btn-primary">Rein!</a>
+              </div>
+            </div>
+            ';
+          }
+          ?>
         </div>
-      ';
-    }
-    ?>
+      </div>
+    </div>
   </body>
 </html>
