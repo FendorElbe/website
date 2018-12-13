@@ -2,16 +2,6 @@
     display: flex;
     width: 100%;
 }
-body {
-    background: #fafafa;
-}
-
-p {
-    font-size: 1.1em;
-    font-weight: 300;
-    line-height: 1.7em;
-    color: #999;
-}
 
 a, a:hover, a:focus {
     color: inherit;
@@ -27,11 +17,8 @@ a, a:hover, a:focus {
   height: 100vh;
   z-index: 999;
   background: #7386D5;
-    color: #fff;
-    transition: all 0.3s;
-    background: #7386D5;
-    color: #fff;
-    transition: all 0.3s;
+  color: #fff;
+  transition: all 0.3s;
 }
 
 #sidebar .sidebar-header {

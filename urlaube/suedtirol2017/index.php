@@ -38,6 +38,7 @@
     </nav>
     <!-- Page Content -->
     <div id="content">
+      Hier müsste die Sidebar kommen!
         <nav class="navbar navbar-dark bg-dark">
             <div class="container-fluid">
                 <button type="button" id="sidebarCollapse" class="btn btn-info">
