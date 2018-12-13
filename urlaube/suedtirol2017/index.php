@@ -25,7 +25,6 @@
         </div>
 
         <ul class="list-unstyled components">
-            <p>Dummy Heading</p>
             <li>
                 <a href="#">About</a>
             </li>
@@ -36,11 +35,10 @@
                 <a href="#">Contact</a>
             </li>
         </ul>
-
     </nav>
     <!-- Page Content -->
     <div id="content">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar navbar-dark bg-dark">
             <div class="container-fluid">
                 <button type="button" id="sidebarCollapse" class="btn btn-info">
                     <i class="fas fa-align-left"></i>
