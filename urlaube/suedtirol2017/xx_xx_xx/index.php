@@ -50,5 +50,13 @@
         <span class="sr-only">Next</span>
       </a>
     </div>
+
+    <script>
+    $(document).ready(function() {
+      $(".slideimg").click(function() {
+        $(".carousel-caption").toggleClass('d-md-block');
+      });
+    });
+    </script>
   </body>
 </html>
