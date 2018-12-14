@@ -61,7 +61,6 @@
             Das hier ist default
           </div>
           <div id="slideshow" class="container-fluid container-custom d-none">
-            Das hier ist slideshow
           </div>
 
       </div>
