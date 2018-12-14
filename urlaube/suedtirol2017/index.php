@@ -27,7 +27,7 @@
           </div>
 
           <ul class="list-unstyled components">
-            <li class="active">
+            <li class="active sidebarli">
                 <a href="#" class="btnHome">Home</a>
             </li>
             <?php
@@ -35,7 +35,7 @@
             foreach ($directories as $directory){
               $info_lines = file($directory."/info.txt");
               echo '
-                <li>
+                <li class="sidebarli">
                   <a href="#" class="btnDay" id="'.$directory.'">'.$info_lines[0].'</a>
                 </li>
               ';
