@@ -5,4 +5,8 @@ $(document).ready(function() {
           $("#slideshow").removeClass("d-none");
           $("#slideshow").load("./xx_xx_xx/index.php");
         });
+        $('a.btnHome').click(function() {
+          $("#slideshow").addClass("d-none");
+          $("#default").removeClass("d-none");
+        });
     });

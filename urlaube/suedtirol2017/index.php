@@ -28,7 +28,7 @@
 
           <ul class="list-unstyled components">
             <li class="active">
-                <a href="#">Home</a>
+                <a href="#" class="btnHome">Home</a>
             </li>
             <?php
             $directories = glob("." . '/*', GLOB_ONLYDIR);
