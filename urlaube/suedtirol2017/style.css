@@ -80,3 +80,18 @@ ul ul a {
   padding-left: 0px;
   margin-left: 0px;
 }
+
+.slideimg {
+  height: 100vh;
+  overflow: auto;
+}
+
+.oversize {
+  width: 100%;
+  height: auto;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, .4);
+    left: 0;
+}
