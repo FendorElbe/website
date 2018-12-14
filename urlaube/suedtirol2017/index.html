@@ -44,9 +44,9 @@
             <a class="navbar-brand" href="#"><button type="button" id="sidebarCollapse" class="btn btn-dark">
               <i class="fas fa-bars"></i>
             </button></a>
-            <span class="navbar-toggler-icon">
-              <i class="fa fa-bars"></i>
-            </span>
+            <li class="visible-xs"><button class="btn btn-dark navbarCollapse">
+              <i class="fas fa-bars"></i>
+            </button></li>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
@@ -74,6 +74,10 @@
 
         $('#sidebarCollapse').on('click', function () {
             $('#sidebar').toggleClass('active');
+        });
+
+        $('#navbarCollapse').on('click', function () {
+            $('#navbar-collapse').toggleClass('collapse');
         });
 
     });
