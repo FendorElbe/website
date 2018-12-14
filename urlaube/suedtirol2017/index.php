@@ -33,7 +33,7 @@
             <?php
             $directories = glob("." . '/*', GLOB_ONLYDIR);
             foreach ($directories as $directory){
-              $info_lines = file(&directory."/info.txt");
+              $info_lines = file($directory."/info.txt");
               echo '
                 <li>
                   <a href="#">'.$info_lines[0].'</a>
