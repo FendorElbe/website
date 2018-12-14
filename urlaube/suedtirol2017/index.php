@@ -36,7 +36,7 @@
               $info_lines = file($directory."/info.txt");
               echo '
                 <li>
-                  <a href="#">'.$info_lines[0].'</a>
+                  <a>'.$info_lines[0].'</a>
                 </li>
               ';
             }
@@ -57,6 +57,10 @@
             </ul>
           </nav>
 
+          <div id="default" class="container-fluid container-custom">
+          </div>
+          <div id="slideshow" class="container-fluid container-custom d-none">
+          </div>
 
       </div>
   </div>
@@ -78,6 +82,7 @@
 
     });
   </script>
+   <script src="fetch.js"></script>
 
 </body>
 
