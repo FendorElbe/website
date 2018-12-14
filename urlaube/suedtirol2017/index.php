@@ -27,32 +27,36 @@
           </div>
 
           <ul class="list-unstyled components">
-              <li class="active">
-                  <a href="#">About</a>
-              </li>
-              <li>
-                  <a href="#">Portfolio</a>
-              </li>
-              <li>
-                  <a href="#">Contact</a>
-              </li>
+            <li class="active">
+                <a href="#">Home</a>
+            </li>
+            <?php
+            $directories = glob("." . '/*', GLOB_ONLYDIR);
+            foreach ($directories as $directory){
+              echo '
+                <li>
+                  <a href="#">'.$directory.'</a>
+                </li>
+              ';
+            }
+            ?>
           </ul>
       </nav>
 
       <div id="content" class="container-fluid container-custom">
+
           <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <a class="navbar-brand" href="#"><button type="button" id="sidebarCollapse" class="btn btn-dark">
               <i class="fas fa-bars"></i>
             </button></a>
             <ul class="navbar-nav mr-auto">
               <li class="nav-item active">
-                <a class="nav-link" href="#">Test 1</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Test 2</a>
+                <a class="nav-link" href="#">Some header?</a>
               </li>
             </ul>
           </nav>
+
+
       </div>
   </div>
 
