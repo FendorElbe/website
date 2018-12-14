@@ -1,5 +1,5 @@
 $(document).ready(function() {
         $('a.btnDay').click(function() {
-          alert(this.attr('id'));
+          alert($(this).attr('id'));
         });
     });
