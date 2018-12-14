@@ -36,7 +36,7 @@
               $info_lines = file($directory."/info.txt");
               echo '
                 <li>
-                  <a href="#" class="btnDay" id="btn_'.$directory.'">'.$info_lines[0].'</a>
+                  <a href="#" class="btnDay" id="'.$directory.'">'.$info_lines[0].'</a>
                 </li>
               ';
             }
