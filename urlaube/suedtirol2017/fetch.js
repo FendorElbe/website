@@ -5,7 +5,7 @@ $(document).ready(function() {
           $(this).parent().addClass("active");
           $("#default").addClass("d-none");
           $("#slideshow").removeClass("d-none");
-          $("#slideshow").load("./xx_xx_xx/index.php");
+          $("#slideshow").load("./".id."/index.php");
         });
         $('a.btnHome').click(function() {
           $(".sidebarli").removeClass("active")
