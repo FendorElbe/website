@@ -11,7 +11,6 @@
       <div class="carousel-inner">
         <?php
         $handle = opendir(dirname(realpath(__FILE__)).'/img/');
-        $dirname = dirname(realpath(__FILE__));
         $count = 0;
         $captions_lines = file("captions.txt");
         while($file = readdir($handle)){
@@ -19,7 +18,7 @@
             if($count == 0){
               echo '
               <div class="carousel-item slideimg active">
-                <img class="d-block oversize" src="'.$dirname.$file.'" alt="First slide">
+                <img class="d-block oversize" src="'.$file.'" alt="First slide">
                 <div class="carousel-caption w-100 px-5 d-none d-md-block">
                   <h5>'.$captions_lines[$count++].'</h5>
                   <p>'.$captions_lines[$count++].'</p>
@@ -30,7 +29,7 @@
             else{
               echo '
               <div class="carousel-item slideimg">
-                <img class="d-block oversize" src="./img/'.$file.'" alt="First slide">
+                <img class="d-block oversize" src="'.$file.'" alt="First slide">
                 <div class="carousel-caption w-100 px-5 d-none d-md-block">
                   <h5>'.$captions_lines[$count++].'</h5>
                   <p>'.$captions_lines[$count++].'</p>
