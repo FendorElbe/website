@@ -16,6 +16,7 @@
         $currentdir = dirname(realpath(__FILE__));
         $count = 0;
         $captions_lines = file("captions.txt");
+        echo "<script type='text/javascript'>alert('$currentdir');</script>";
         while($file = readdir($handle)){
           if($file !== '.' && $file !== '..'){
             if($count == 0){
