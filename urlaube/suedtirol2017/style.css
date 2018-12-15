@@ -95,3 +95,8 @@ ul ul a {
     background-color: rgba(0, 0, 0, .4);
     left: 0;
 }
+
+.container-slideshow {
+  padding-top: 15px;
+  margin-top: auto;
+}
