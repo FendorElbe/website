@@ -1,14 +1,18 @@
 .slideimg {
-  height: 100vh;
-  overflow: auto;
+  height: 100%;
+  overflow: hidden;
 }
 
 .oversize {
-  width: 100%;
-  height: auto;
+  width: auto;
+  height: 100%;
 }
 
 .carousel-caption {
     background-color: rgba(0, 0, 0, .4);
     left: 0;
+}
+
+.totalWrapper {
+  height: 100%;
 }

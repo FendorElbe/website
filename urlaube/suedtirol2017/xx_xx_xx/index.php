@@ -9,7 +9,7 @@
 
   </head>
   <body>
-    <div class="p-3">
+    <div class="p-3 totalWrapper">
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner">
         <?php
