@@ -60,8 +60,8 @@
           <div id="default" class="container-fluid container-custom">
             Das hier ist default
           </div>
-          <div class="container-fluid d-none">
-            <div id="slideshow" class="row">
+          <div class="container-fluid">
+            <div id="slideshow" class="row d-none">
             </div>
           </div>
 
