@@ -60,7 +60,7 @@
           <div id="default" class="container-fluid container-custom">
             Das hier ist default
           </div>
-          <div id="slideshow" class="container-fluid container-slideshow d-none">
+          <div id="slideshow" class="container-fluid container-custom d-none">
           </div>
       </div>
   </div>

@@ -5,8 +5,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <link rel="stylesheet" href="custom.css">
+
   </head>
   <body>
+    <div class="p-3">
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner">
         <?php
@@ -51,6 +54,7 @@
         <span class="sr-only">Next</span>
       </a>
     </div>
+  </div>
 
     <script>
     $(document).ready(function() {
