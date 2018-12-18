@@ -5,6 +5,7 @@
 
 .oversize {
   height: calc(100vh - 50px - $spacer) !important;
+  max-height: calc(100vh - 50px - $spacer) !important;
   width: auto;
 }
 

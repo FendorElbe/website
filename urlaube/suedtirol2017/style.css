@@ -82,21 +82,3 @@ ul ul a {
 
   height: calc(100vh - 50px);
 }
-
-.slideimg {
-  height: calc(100vh - 50px - $spacer);
-  overflow: hidden;
-}
-
-.oversize {
-  height: calc(100vh - 50px - $spacer) !important;
-  width: auto;
-}
-
-.carousel-caption {
-    background-color: rgba(0, 0, 0, .6);
-}
-
-.totalWrapper {
-  height: 100%;
-}
