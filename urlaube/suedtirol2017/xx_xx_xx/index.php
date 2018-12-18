@@ -23,7 +23,7 @@
               echo '
               <div class="carousel-item slideimg active">
                 <img class="d-block img-fluid" src="./'.$currentdir.'/img/'.$file.'" alt="First slide">
-                <div class="carousel-caption w-100 px-5 d-none d-md-block">
+                <div class="carousel-caption w-100 px-5 d-none d-md-block" align="center">
                   <h5>'.$captions_lines[$count++].'</h5>
                   <p>'.$captions_lines[$count++].'</p>
                 </div>
@@ -34,7 +34,7 @@
               echo '
               <div class="carousel-item slideimg">
                 <img class="d-block img-fluid" src="./'.$currentdir.'/img/'.$file.'" alt="other slide">
-                <div class="carousel-caption w-100 px-5 d-none d-md-block">
+                <div class="carousel-caption w-100 px-5 d-none d-md-block" align="center">
                   <h5>'.$captions_lines[$count++].'</h5>
                   <p>'.$captions_lines[$count++].'</p>
                 </div>
