@@ -11,7 +11,7 @@
   <body>
     <div class="p-3 totalWrapper">
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-      <div class="carousel-inner">
+      <div class="carousel-inner" align="center">
         <?php
         $handle = opendir(dirname(realpath(__FILE__)).'/img/');
         $currentdir = basename(__DIR__);;
