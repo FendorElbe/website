@@ -4,8 +4,8 @@
 }
 
 .oversize {
-  width: auto;
   height: calc(100vh - 50px - $spacer);
+  width: auto;
 }
 
 .carousel-caption {
