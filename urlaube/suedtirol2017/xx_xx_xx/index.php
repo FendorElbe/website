@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="stylesheet" href="custom.css">
+    <link rel="stylesheet" href="/custom.css">
 
   </head>
   <body>
@@ -21,7 +21,7 @@
           if($file !== '.' && $file !== '..'){
             if($count == 0){
               echo '
-              <div class="carousel-item slideimg active" align="center">
+              <div class="carousel-item slideimg active">
                 <img class="d-block oversize" src="./'.$currentdir.'/img/'.$file.'" alt="First slide">
                 <div class="carousel-caption w-100 px-5 d-none d-md-block">
                   <h5>'.$captions_lines[$count++].'</h5>
@@ -32,7 +32,7 @@
             }
             else{
               echo '
-              <div class="carousel-item slideimg" align="center">
+              <div class="carousel-item slideimg">
                 <img class="d-block oversize" src="./'.$currentdir.'/img/'.$file.'" alt="other slide">
                 <div class="carousel-caption w-100 px-5 d-none d-md-block">
                   <h5>'.$captions_lines[$count++].'</h5>
