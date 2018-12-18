@@ -1,11 +1,11 @@
 .slideimg {
-  height: 100%;
+  height: calc(100vh - 50px - $spacer);
   overflow: hidden;
 }
 
 .oversize {
   width: auto;
-  height: 100%;
+  height: calc(100vh - 50px - $spacer);
 }
 
 .carousel-caption {
