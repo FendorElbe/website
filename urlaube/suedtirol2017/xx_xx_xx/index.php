@@ -21,9 +21,9 @@
           if($file !== '.' && $file !== '..'){
             if($count == 0){
               echo '
-              <div class="carousel-item slideimg active">
+              <div class="carousel-item slideimg active" align="center">
                 <img class="d-block img-fluid" src="./'.$currentdir.'/img/'.$file.'" alt="First slide">
-                <div class="carousel-caption w-100 px-5 d-none d-md-block" align="center">
+                <div class="carousel-caption w-100 px-5 d-none d-md-block">
                   <h5>'.$captions_lines[$count++].'</h5>
                   <p>'.$captions_lines[$count++].'</p>
                 </div>
@@ -32,9 +32,9 @@
             }
             else{
               echo '
-              <div class="carousel-item slideimg">
+              <div class="carousel-item slideimg" align="center">
                 <img class="d-block img-fluid" src="./'.$currentdir.'/img/'.$file.'" alt="other slide">
-                <div class="carousel-caption w-100 px-5 d-none d-md-block" align="center">
+                <div class="carousel-caption w-100 px-5 d-none d-md-block">
                   <h5>'.$captions_lines[$count++].'</h5>
                   <p>'.$captions_lines[$count++].'</p>
                 </div>
