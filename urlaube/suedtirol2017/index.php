@@ -51,8 +51,7 @@
               <i class="fas fa-bars"></i>
             </button></a>
             <ul class="navbar-nav mr-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="#">Some header?</a>
+              <li id="nav_item_1" class="nav-item active">
               </li>
             </ul>
           </nav>
