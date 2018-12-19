@@ -79,7 +79,7 @@ ul ul a {
 }
 
 .components {
-  height: 50%vh;
+  height: 50vh;
   width: auto;
   overflow: hidden;
   overflow-y: scroll;
