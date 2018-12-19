@@ -79,6 +79,7 @@ ul ul a {
 }
 
 .components {
+  max-height: 100%;
   overflow: auto;
 }
 
