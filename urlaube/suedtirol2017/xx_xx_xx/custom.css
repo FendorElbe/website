@@ -3,10 +3,9 @@
   overflow: hidden;
 }
 
-.oversize {
-  height: calc(100vh - 50px - $spacer) !important;
-  max-height: calc(100vh - 50px - $spacer) !important;
-  width: auto;
+.slideimg img {
+  max-height:100%;
+  max-width: 100%;
 }
 
 .carousel-caption {
