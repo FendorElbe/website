@@ -83,6 +83,12 @@ ul ul a {
   width: auto;
   overflow: hidden;
   overflow-y: scroll;
+  scrollbar-width: none;
+}
+
+.components::-webkit-scrollbar { 
+  /* This is the magic bit for WebKit */
+  display: none;
 }
 
 .container-custom {
