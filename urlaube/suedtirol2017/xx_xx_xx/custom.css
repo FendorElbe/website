@@ -1,6 +1,6 @@
 .slideimg {
-  height: calc(100vh - 79px);
-  max-height: calc(100vh - 79px);
+  height: calc(100vh - 50px);
+  max-height: calc(100vh - 50px);
   overflow: hidden;
 }
 
@@ -12,13 +12,4 @@
 .carousel-caption {
     background-color: rgba(0, 0, 0, .6);
     left: 0;
-}
-
-.totalWrapper {
-  height: calc(100vh - 64px);
-  max-height: calc(100vh - 64px);
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-top: 15px;
-  overflow: hidden;
 }
