@@ -11,7 +11,8 @@ $(document).ready(function() {
           //Load Day into slideshow div
           $("#slideshow").load("./"+ id +"/index.php");
           //Load Headers
-          $("#nav_item_1").load("./"+ id +"/nav_item_1.php");
+          $("#nav_item_1").load("./"+ id +"/nav_item_1.html");
+          alert("Load done!");
         });
         $('a.btnHome').click(function() {
           //Same as above for button home
