@@ -12,7 +12,7 @@
 
   </head>
   <body>
-    <div class="p-3 totalWrapper">
+    <div class="totalWrapper">
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner" align="center">
         <?php

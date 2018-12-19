@@ -1,6 +1,6 @@
 .slideimg {
-  height: calc(100vh - 50px - $spacer);
-  max-height: calc(100vh - 50px - $spacer);
+  height: calc(100vh - 65px);
+  max-height: calc(100vh - 65px);
   overflow: hidden;
   background-color: black;
   border-style: solid;
@@ -19,4 +19,7 @@
 
 .totalWrapper {
   height: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
 }
