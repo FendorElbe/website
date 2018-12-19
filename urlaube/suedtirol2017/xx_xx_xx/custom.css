@@ -10,6 +10,12 @@
   vertical-align: middle;
 }
 
+.helper {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
 .carousel-caption {
     background-color: rgba(0, 0, 0, .6);
     left: 0;

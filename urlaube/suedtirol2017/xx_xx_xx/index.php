@@ -24,6 +24,7 @@
             if($count == 0){
               echo '
               <div class="carousel-item slideimg active">
+                <span class="helper"></span>
                 <img class="d-block oversize" src="./'.$currentdir.'/img/'.$file.'" alt="First slide">
                 <div class="carousel-caption w-100 px-5 d-none d-md-block">
                   <h5>'.$captions_lines[$count++].'</h5>
@@ -35,6 +36,7 @@
             else{
               echo '
               <div class="carousel-item slideimg">
+                <span class="helper"></span>
                 <img class="d-block oversize" src="./'.$currentdir.'/img/'.$file.'" alt="other slide">
                 <div class="carousel-caption w-100 px-5 d-none d-md-block">
                   <h5>'.$captions_lines[$count++].'</h5>
