@@ -12,7 +12,6 @@
 
   </head>
   <body>
-    <div class="totalWrapper">
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner" align="center">
         <?php
@@ -57,7 +56,6 @@
         <span class="sr-only">Next</span>
       </a>
     </div>
-  </div>
 
     <script>
     $(document).ready(function() {
