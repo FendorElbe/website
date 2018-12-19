@@ -83,7 +83,3 @@ ul ul a {
   height: calc(100vh - 50px);
   max-height: calc(100vh - 50px);
 }
-
-#slideshow {
-  background-color: black;
-}
