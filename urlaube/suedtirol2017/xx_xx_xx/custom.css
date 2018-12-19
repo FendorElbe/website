@@ -16,8 +16,8 @@
 }
 
 .totalWrapper {
-  height: calc(100vh - 50px);
-  max-height: calc(100vh - 50px);
+  height: calc(100vh - 65px);
+  max-height: calc(100vh - 65px);
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 15px;
