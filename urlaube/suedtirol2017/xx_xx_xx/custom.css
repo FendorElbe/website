@@ -2,6 +2,7 @@
   height: calc(100vh - 50px);
   max-height: calc(100vh - 50px);
   overflow: hidden;
+  vertical-align: middle
 }
 
 .slideimg img {
