@@ -79,8 +79,10 @@ ul ul a {
 }
 
 .components {
-  max-height: 100%;
-  overflow: auto;
+  height: 50%vh;
+  width: auto;
+  overflow: hidden;
+  overflow-y: scroll;
 }
 
 .container-custom {
