@@ -11,7 +11,7 @@
 }
 
 .helper {
-  display: inline-block;
+  display: none;
   height: 100%;
   vertical-align: middle;
 }
