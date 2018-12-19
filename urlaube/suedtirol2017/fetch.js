@@ -1,5 +1,6 @@
 $(document).ready(function() {
         $('a.btnDay').click(function() {
+          console.log("Pre script!");
           //Get id of Button that is pressed
           var id = $(this).attr('id');
           //Set pressed Button active and deacticate all others
