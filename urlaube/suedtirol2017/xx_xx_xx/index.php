@@ -5,7 +5,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="stylesheet" href="/custom.css">
+    <?php
+    $currentdir = basename(__DIR__);
+    echo '<link rel="stylesheet" href="./'.$currentdir.'/custom.css">';
+    ?>
 
   </head>
   <body>
@@ -14,7 +17,7 @@
       <div class="carousel-inner" align="center">
         <?php
         $handle = opendir(dirname(realpath(__FILE__)).'/img/');
-        $currentdir = basename(__DIR__);;
+        $currentdir = basename(__DIR__);
         $count = 0;
         $captions_lines = file("captions.txt");
         while($file = readdir($handle)){
