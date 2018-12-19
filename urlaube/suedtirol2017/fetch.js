@@ -1,6 +1,5 @@
 $(document).ready(function() {
         $('a.btnDay').click(function() {
-          console.log("Pre script!");
           //Get id of Button that is pressed
           var id = $(this).attr('id');
           //Set pressed Button active and deacticate all others
@@ -10,12 +9,7 @@ $(document).ready(function() {
           $("#default").addClass("d-none");
           $("#slideshow").removeClass("d-none");
           //Load Day into slideshow div
-          console.log("Pre Load!");
           $("#slideshow").load("./"+ id +"/index.php");
-          console.log("Load 1 done!");
-          //Load Headers
-          $("#nav_item_1").load("./"+ id +"/nav_item_1.html");
-          console.log();("Load 2 done!");
         });
         $('a.btnHome').click(function() {
           //Same as above for button home
