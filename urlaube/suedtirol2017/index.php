@@ -51,8 +51,8 @@
               <i class="fas fa-bars"></i>
             </button></a>
             <ul class="navbar-nav mr-auto">
-              <li id="nav_item_1" class="nav-item active">
-              </li>
+              <div id="nav_item_1">
+              </div>
             </ul>
           </nav>
 
