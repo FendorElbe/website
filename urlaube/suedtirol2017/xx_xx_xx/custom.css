@@ -1,6 +1,7 @@
 .slideimg {
   height: calc(100vh - 50px - $spacer) !important;
   overflow: hidden;
+  background-color: red;
 }
 
 .slideimg img {
