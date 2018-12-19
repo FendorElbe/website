@@ -83,10 +83,11 @@ ul ul a {
   width: auto;
   overflow: hidden;
   overflow-y: scroll;
+  /* only for firefox */
   scrollbar-width: none;
 }
 
-.components::-webkit-scrollbar { 
+.components::-webkit-scrollbar {
   /* This is the magic bit for WebKit */
   display: none;
 }
