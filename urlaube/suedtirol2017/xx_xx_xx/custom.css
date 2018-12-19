@@ -1,5 +1,5 @@
 .slideimg {
-  height: calc(100vh - 50px - $spacer);
+  height: calc(100vh - 50px - $spacer) !important;
   overflow: hidden;
 }
 
