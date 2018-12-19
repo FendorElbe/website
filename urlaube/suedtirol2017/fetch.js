@@ -9,10 +9,12 @@ $(document).ready(function() {
           $("#default").addClass("d-none");
           $("#slideshow").removeClass("d-none");
           //Load Day into slideshow div
+          alert("Pre Load!");
           $("#slideshow").load("./"+ id +"/index.php");
+          alert("Load 1 done!");
           //Load Headers
           $("#nav_item_1").load("./"+ id +"/nav_item_1.html");
-          alert("Load done!");
+          alert("Load 2 done!");
         });
         $('a.btnHome').click(function() {
           //Same as above for button home
