@@ -81,4 +81,5 @@ ul ul a {
   margin-left: 0px;
 
   height: calc(100vh - 50px);
+  max-height: calc(100vh - 50px);
 }

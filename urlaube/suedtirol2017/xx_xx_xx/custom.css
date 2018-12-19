@@ -1,6 +1,6 @@
 .slideimg {
-  height: calc(100vh - 65px);
-  max-height: calc(100vh - 65px);
+  height: calc(100vh - 80px);
+  max-height: calc(100vh - 80px);
   overflow: hidden;
   background-color: black;
   border-style: solid;
