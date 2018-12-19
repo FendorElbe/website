@@ -2,6 +2,7 @@ body {overflow: hidden; }
 
 .navbar {
   margin-bottom: 0;
+  height: 50px;
 }
 
 .wrapper {
@@ -22,9 +23,6 @@ body {overflow: hidden; }
     }
 }
 
-/*
-    ADDITIONAL DEMO STYLE, NOT IMPORTANT TO MAKE THINGS WORK BUT TO MAKE IT A BIT NICER :)
-*/
 p {
     font-size: 1.1em;
     font-weight: 300;
