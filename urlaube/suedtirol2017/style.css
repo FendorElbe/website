@@ -79,7 +79,7 @@ ul ul a {
 }
 
 .components {
-  height: calc(100vh - 100px);
+  height: calc(100vh - 120px);
   width: auto;
   overflow: hidden;
   overflow-y: scroll;
@@ -103,5 +103,5 @@ ul ul a {
 }
 
 .sidebar-header {
-  height: 100px;
+  height: 120px;
 }
