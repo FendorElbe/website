@@ -82,6 +82,6 @@ ul ul a {
   padding-left: 0px;
   margin-left: 0px;
 
-  height: calc(100vh - 45px);
-  max-height: calc(100vh - 45px);
+  height: calc(100vh - 55px);
+  max-height: calc(100vh - 55px);
 }
