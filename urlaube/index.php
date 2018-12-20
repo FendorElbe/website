@@ -31,7 +31,7 @@
           if(!$first){
             $text .= "<p>".$line."</p>";
           }
-          else() {
+          else {
             $first = false;
           }
         }
