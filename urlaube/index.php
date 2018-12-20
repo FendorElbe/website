@@ -17,62 +17,15 @@
     <title>Urlaube</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="../index.html">FinnLabe.de</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Errinnerungen</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">MKM Tools</a>
-        </li>
-      </ul>
-      <ul class="navbar-nav navbar-right">
-        <li class="nav-item">
-          <a class="nav-link" href="../impressum.html">Impressum</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-
-  <div class="container">
-    <div class="row mt-5">
-      <div class="col-sm">
-        <div class="card" style="width: 18rem;">
-          <img class="card-img-top" src="..." alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">Amerika 2019</h5>
-            <p class="card-text">Reise durch den Westen und Norden der USA in drei Monaten.</p>
-            <a href="USA2018/index.html" class="btn btn-primary">WiP...</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm">
-        <div class="card" style="width: 18rem;">
-          <img class="card-img-top" src="..." alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">Südtirol 2017</h5>
-            <p class="card-text">Zwei Wochen Wanderurlaub in Südtirol.</p>
-            <a href="suedtirol2017/index.php" class="btn btn-primary">Gehe dorthin!</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm">
-        <div class="card" style="width: 18rem;">
-          <img class="card-img-top" src="..." alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">TODO</h5>
-            <p class="card-text">TODO</p>
-            <a href="#" class="btn btn-primary">TODO</a>
-          </div>
+    <div class="container">
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="..." alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Südtirol</h5>
+          <p class="card-text">Reise durch den Westen und Norden der USA in drei Monaten.</p>
+          <a href="USA2018/index.html" class="btn btn-primary">WiP...</a>
         </div>
       </div>
     </div>
-  </div>
-</body>
+  </body>
 </html>
