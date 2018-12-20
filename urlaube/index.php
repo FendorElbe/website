@@ -21,7 +21,7 @@
   <body>
     <div class="container p-5">
 
-        <div class="row clickable-row pb-3" data-href="suedtirol2017/index.php" style="cursor: pointer">
+        <div class="row clickable-row p-3 m-3" data-href="suedtirol2017/index.php" style="cursor: pointer">
           <div class="col-4">
             <img class="img-thumbnail" src="suedtirol2017/thumb.jpg" alt="Card image cap">
           </div>
