@@ -25,14 +25,17 @@
       $directories = glob("." . '/*', GLOB_ONLYDIR);
       foreach ($directories as $directory){
         $info_lines = file($directory."/info.txt");
-        $first = true;
+        $count = 0;
         $text = "";
         foreach ($info_lines as $line){
-          if(!$first) {
+          if($count == 1){
             $text .= $line;
-          } else {
-            $first = false;
           }
+          else if($count > 1) {
+            $text .= "\n";
+            $text .= $line;
+          }
+          $count++;
         }
         echo '
           <div class="row clickable-row p-3 m-2" data-href="'.$directory.'/index.php" style="cursor: pointer">
