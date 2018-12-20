@@ -26,10 +26,12 @@
       <!-- Sidebar -->
       <nav id="sidebar">
           <div class="sidebar-header">
+            <span class="sidebar-header-span">
               <?php
               $info = file("info.txt");
               echo '<h3>'.$info[0].'</h3>';
               ?>
+            </span>
           </div>
 
           <ul class="list-unstyled components">

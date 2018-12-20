@@ -104,4 +104,11 @@ ul ul a {
 
 .sidebar-header {
   height: 120px;
+  line-height: 120px;
+}
+
+.sidebar-header-span {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
 }
