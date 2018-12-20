@@ -28,11 +28,11 @@
         echo '
           <div class="row clickable-row p-3 m-2" data-href="'.$directory.'/index.php" style="cursor: pointer">
             <div class="col-4">
-              <img class="img-thumbnail" src="suedtirol2017/thumb.jpg" alt="Card image cap">
+              <img class="img-thumbnail" src="'.$directory.'/thumb.jpg" alt="Card image cap">
             </div>
             <div class="col-8">
-              <h3>Some Header</h3>
-              Some text
+              <h3>'.$info_lines[0].'</h3>
+              '.$info_lines[1].'
             </div>
           </div>
         ';
