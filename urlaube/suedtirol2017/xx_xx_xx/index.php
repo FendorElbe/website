@@ -16,10 +16,15 @@
       <div class="carousel-inner" align="center">
         <?php
         $handle = opendir(dirname(realpath(__FILE__)).'/img/');
+        $files = array();
+        while($files[] = readdir($handle)){
+          sort($files);
+          closedir($handle);
+        }
         $currentdir = basename(__DIR__);
         $count = 0;
         $captions_lines = file("captions.txt");
-        while($file = readdir($handle)){
+        foreach($files as $file){
           if($file !== '.' && $file !== '..'){
             if($count == 0){
               echo '
