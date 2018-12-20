@@ -28,7 +28,7 @@
           <div class="sidebar-header">
               <?php
               $info = file("info.txt");
-              echo '<h3>'.$captions_lines[0].'</h3>';
+              echo '<h3>'.$info[0].'</h3>';
               ?>
           </div>
 
