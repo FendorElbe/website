@@ -19,54 +19,15 @@
   <body>
     <div class="container p-5">
 
-      <div class="card p-3" style="width: 18rem;">
-        <img class="card-img-top" src="..." alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Südtirol</h5>
-          <p class="card-text">Reise durch den Westen und Norden der USA in drei Monaten.</p>
-          <a href="suedtirol2017/index.php" class="btn btn-primary">WiP...</a>
+        <div class="row">
+          <div class="col-4">
+            <img class="img-fluid" src="suedtirol2017/thumb.jpg" alt="Card image cap">
+          </div>
+          <div class="col-8">
+            <h3>Some Header</h3>
+            Some text
+          </div>
         </div>
-      </div>
-      <div class="card p-3" style="width: 18rem;">
-        <img class="card-img-top" src="..." alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Südtirol</h5>
-          <p class="card-text">Reise durch den Westen und Norden der USA in drei Monaten.</p>
-          <a href="suedtirol2017/index.php" class="btn btn-primary">WiP...</a>
-        </div>
-      </div>
-      <div class="card p-3" style="width: 18rem;">
-        <img class="card-img-top" src="..." alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Südtirol</h5>
-          <p class="card-text">Reise durch den Westen und Norden der USA in drei Monaten.</p>
-          <a href="suedtirol2017/index.php" class="btn btn-primary">WiP...</a>
-        </div>
-      </div>
-      <div class="card p-3" style="width: 18rem;">
-        <img class="card-img-top" src="..." alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Südtirol</h5>
-          <p class="card-text">Reise durch den Westen und Norden der USA in drei Monaten.</p>
-          <a href="suedtirol2017/index.php" class="btn btn-primary">WiP...</a>
-        </div>
-      </div>
-      <div class="card p-3" style="width: 18rem;">
-        <img class="card-img-top" src="..." alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Südtirol</h5>
-          <p class="card-text">Reise durch den Westen und Norden der USA in drei Monaten.</p>
-          <a href="suedtirol2017/index.php" class="btn btn-primary">WiP...</a>
-        </div>
-      </div>
-      <div class="card p-3" style="width: 18rem;">
-        <img class="card-img-top" src="..." alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Südtirol</h5>
-          <p class="card-text">Reise durch den Westen und Norden der USA in drei Monaten.</p>
-          <a href="suedtirol2017/index.php" class="btn btn-primary">WiP...</a>
-        </div>
-      </div>
 
     </div>
   </body>
