@@ -36,7 +36,7 @@
           }
         }
         echo '
-          <div class="row clickable-row p-3 m-2" data-href="'.$directory.'/index.php" style="cursor: pointer">
+          <div class="row clickable-row m-2" data-href="'.$directory.'/index.php" style="cursor: pointer">
             <div class="col-4">
               <img class="img-thumbnail" src="'.$directory.'/thumb.jpg" alt="Card image cap">
             </div>

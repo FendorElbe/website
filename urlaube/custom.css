@@ -4,7 +4,7 @@
 }
 
 .clickable-row{
-  border-radius: 15px;
+  border-radius: 0 0 10px 10px;
   border-style: solid;
   border-width: 2px;
   border-color: white;
