@@ -1,9 +1,9 @@
-.clickable-row:hover {
+.col-right:hover {
   background-color: #DCDCDC;
   border-color: #D3D3D3;
 }
 
-.clickable-row{
+.col-right{
   border-radius: 0 10px 10px 0;
   border-style: solid;
   border-width: 2px;

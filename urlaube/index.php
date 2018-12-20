@@ -40,7 +40,7 @@
             <div class="col-4">
               <img class="img-thumbnail" src="'.$directory.'/thumb.jpg" alt="Card image cap">
             </div>
-            <div class="col-8">
+            <div class="col-8 col-right">
               <h3>'.$info_lines[0].'</h3>
               '.$text.'
             </div>
