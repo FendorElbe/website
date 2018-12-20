@@ -21,15 +21,23 @@
   <body>
     <div class="container p-5">
 
-        <div class="row clickable-row p-3 m-3" data-href="suedtirol2017/index.php" style="cursor: pointer">
-          <div class="col-4">
-            <img class="img-thumbnail" src="suedtirol2017/thumb.jpg" alt="Card image cap">
+      <?php
+      $directories = glob("." . '/*', GLOB_ONLYDIR);
+      foreach ($directories as $directory){
+        $info_lines = file($directory."/info.txt");
+        echo '
+          <div class="row clickable-row p-3 m-2" data-href="'.$directory.'/index.php" style="cursor: pointer">
+            <div class="col-4">
+              <img class="img-thumbnail" src="suedtirol2017/thumb.jpg" alt="Card image cap">
+            </div>
+            <div class="col-8">
+              <h3>Some Header</h3>
+              Some text
+            </div>
           </div>
-          <div class="col-8">
-            <h3>Some Header</h3>
-            Some text
-          </div>
-        </div>
+        ';
+      }
+      ?>
 
     </div>
 
