@@ -6,7 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>Südtirol 9999</title>
+    <?php
+    $currentdir = basename(__DIR__);
+    echo '<title>'.$currentdir.'</title>';
+    ?>
 
     <!-- Bootstrap CSS CDN -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
@@ -23,7 +26,10 @@
       <!-- Sidebar -->
       <nav id="sidebar">
           <div class="sidebar-header">
-              <h3>Bootstrap Sidebar</h3>
+              <?php
+              $info = file("info.txt");
+              echo '<h3>'.$captions_lines[0].'</h3>';
+              ?>
           </div>
 
           <ul class="list-unstyled components">
