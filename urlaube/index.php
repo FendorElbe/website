@@ -25,6 +25,15 @@
       $directories = glob("." . '/*', GLOB_ONLYDIR);
       foreach ($directories as $directory){
         $info_lines = file($directory."/info.txt");
+        $first = true;
+        $text = "";
+        foreach ($info_lines as $line){
+          if(!$first) {
+            $text .= $line;
+          } else {
+            $first = false;
+          }
+        }
         echo '
           <div class="row clickable-row p-3 m-2" data-href="'.$directory.'/index.php" style="cursor: pointer">
             <div class="col-4">
@@ -32,7 +41,7 @@
             </div>
             <div class="col-8">
               <h3>'.$info_lines[0].'</h3>
-              '.$info_lines[1].'
+              '.$text.'
             </div>
           </div>
         ';
