@@ -14,12 +14,14 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
 
+    <link rel="stylesheet" href="custom.css">
+
     <title>Urlaube</title>
   </head>
   <body>
     <div class="container p-5">
 
-        <div class="row clickable-row border-bottom border-dark mb-3" data-href="suedtirol2017/index.php" style="cursor: pointer">
+        <div class="row clickable-row pb-3" data-href="suedtirol2017/index.php" style="cursor: pointer">
           <div class="col-4">
             <img class="img-thumbnail" src="suedtirol2017/thumb.jpg" alt="Card image cap">
           </div>
