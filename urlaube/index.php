@@ -19,7 +19,7 @@
   <body>
     <div class="container p-5">
 
-        <div class="row">
+        <div class="row clickable-row" data-href='suedtirol2017/index.php'>
           <div class="col-4">
             <img class="img-fluid" src="suedtirol2017/thumb.jpg" alt="Card image cap">
           </div>
@@ -30,5 +30,11 @@
         </div>
 
     </div>
+
+    <script>
+      $(".clickable-row").click(function() {
+        window.location = $(this).data("href");
+      });
+    </script>
   </body>
 </html>
