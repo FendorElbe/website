@@ -18,11 +18,11 @@
         $handle = opendir(dirname(realpath(__FILE__)).'/img/');
         $files = array();
         while ($tempfile = readdir($handle)) {
-          $directory[count($directory)] = $tempfile;
+          $files[count($files)] = $tempfile;
         }
         sort($files);
         closedir($handle);
-        
+
         $currentdir = basename(__DIR__);
         $count = 0;
         $captions_lines = file("captions.txt");
