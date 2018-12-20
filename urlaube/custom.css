@@ -1,1 +1,5 @@
 .clickable-row:hover { background-color: #DCDCDC; }
+
+.clickable-row{
+  border-radius: 25px;
+}
