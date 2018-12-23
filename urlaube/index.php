@@ -40,17 +40,19 @@
     <script type="text/javascript" src="https://cssmapsplugin.com/5/jquery.cssmap.min.js"></script>
 
     <script type="text/javascript">
-    $(document).ready(function(){
+$(document).ready(function(){
 
-      // CSSMap;
-      $("#map-continents").CSSMap({
-        "size": 1280,
-        "tooltips": "floating-top-center",
-        "responsive": {}
-      });
-      // END OF THE CSSMap;
+// CSSMap;
+$("#map-continents").CSSMap({
+  "size": 1280,
+  "tooltips": "floating-top-center",
+  "responsive": "auto",
+  "tapOnce": true,
+  "mobileSupport": true
+});
+// END OF THE CSSMap;
 
-    });
-    </script>
+});
+</script>
   </body>
 </html>
