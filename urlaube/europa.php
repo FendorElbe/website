@@ -61,7 +61,7 @@
   <li class="eu19"><a href="#">Iceland</a></li>
   <li class="eu20"><a href="#">Ireland</a></li>
   <li class="eu21"><a href="#">San Marino</a></li>
-  <li class="eu22"><a href="#">Italy</a></li>
+  <li class="eu22"><a href="http://google.de">Italy</a></li>
   <li class="eu23"><a href="#">Kosovo</a></li>
   <li class="eu24"><a href="#">Latvia</a></li>
   <li class="eu25"><a href="#">Liechtenstein</a></li>
