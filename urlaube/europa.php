@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
 
     <!-- CSSMap STYLESHEET - CONTINENTS -->
-    <link rel="stylesheet" type="text/css" href="cssmap-continents/cssmap-continents.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="cssmap/cssmap-europe/cssmap-europe.css" media="screen" />
 
     <link rel="stylesheet" href="custom.css">
 
@@ -105,7 +105,7 @@ $(document).ready(function(){
 
 // CSSMap;
 $("#map-europe").CSSMap({
-  "size": 1450,
+  "size": 650,
   "tooltips": false,
   "responsive": "auto",
   "tapOnce": true,
