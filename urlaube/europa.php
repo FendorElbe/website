@@ -38,18 +38,64 @@
   </nav>
 
     <div class="container p-3">
-      <!-- CSSMap - Continents -->
-      <div id="map-continents">
-        <ul class="continents">
-          <li class="c1"><a href="nothing.html">Afrika</a></li>
-          <li class="c2"><a href="nothing.html">Asien</a></li>
-          <li class="c3"><a href="nothing.html">Australien</a></li>
-          <li class="c4"><a href="http://google.de">Europa</a></li>
-          <li class="c5"><a href="nothing.html">Nordamerika</a></li>
-          <li class="c6"><a href="nothing.html">Südamerika</a></li>
-        </ul>
-      </div>
-      <!-- END OF THE CSSMap - Continents -->
+      <div id="map-europe">
+ <ul class="europe">
+  <li class="eu1"><a href="#">Albania</a></li>
+  <li class="eu2"><a href="#">Andorra</a></li>
+  <li class="eu3"><a href="#">Austria</a></li>
+  <li class="eu4"><a href="#">Belarus</a></li>
+  <li class="eu5"><a href="#">Belgium</a></li>
+  <li class="eu6"><a href="#">Bosnia and Herzegovina</a></li>
+  <li class="eu7"><a href="#">Bulgaria</a></li>
+  <li class="eu8"><a href="#">Croatia</a></li>
+  <li class="eu9"><a href="#">Cyprus</a></li>
+  <li class="eu10"><a href="#">Czech Republic</a></li>
+  <li class="eu11"><a href="#">Denmark</a></li>
+  <li class="eu12"><a href="#">Estonia</a></li>
+  <li class="eu13"><a href="#">France</a></li>
+  <li class="eu14"><a href="#">Finland</a></li>
+  <li class="eu15"><a href="#">Georgia</a></li>
+  <li class="eu16"><a href="#">Germany</a></li>
+  <li class="eu17"><a href="#">Greece</a></li>
+  <li class="eu18"><a href="#">Hungary</a></li>
+  <li class="eu19"><a href="#">Iceland</a></li>
+  <li class="eu20"><a href="#">Ireland</a></li>
+  <li class="eu21"><a href="#">San Marino</a></li>
+  <li class="eu22"><a href="#">Italy</a></li>
+  <li class="eu23"><a href="#">Kosovo</a></li>
+  <li class="eu24"><a href="#">Latvia</a></li>
+  <li class="eu25"><a href="#">Liechtenstein</a></li>
+  <li class="eu26"><a href="#">Lithuania</a></li>
+  <li class="eu27"><a href="#">Luxembourg</a></li>
+  <li class="eu28"><a href="#">Macedonia <abbr title="The Former Yugoslav Republic of Macedonia">(F.Y.R.O.M.)</abbr></a></li>
+  <li class="eu29"><a href="#">Malta</a></li>
+  <li class="eu30"><a href="#">Moldova</a></li>
+  <li class="eu31"><a href="#">Monaco</a></li>
+  <li class="eu32"><a href="#">Montenegro</a></li>
+  <li class="eu33"><a href="#">Netherlands</a></li>
+  <li class="eu34"><a href="#">Norway</a></li>
+  <li class="eu35"><a href="#">Poland</a></li>
+  <li class="eu36"><a href="#">Portugal</a></li>
+  <li class="eu37"><a href="#">Romania</a></li>
+  <li class="eu38"><a href="#">Russian Federation</a></li>
+  <li class="eu39"><a href="#">Serbia</a></li>
+  <li class="eu40"><a href="#">Slovakia</a></li>
+  <li class="eu41"><a href="#">Slovenia</a></li>
+  <li class="eu42"><a href="#">Spain</a></li>
+  <li class="eu43"><a href="#">Sweden</a></li>
+  <li class="eu44"><a href="#">Switzerland</a></li>
+  <li class="eu45"><a href="#">Turkey</a></li>
+  <li class="eu46"><a href="#">Ukraine</a></li>
+  <li class="eu47"><a href="#">United Kingdom</a></li>
+<!--
+  <li class="eu48"><a href="#">England</a></li>
+  <li class="eu49"><a href="#">Isle of Man</a></li>
+  <li class="eu50"><a href="#">Northern Ireland</a></li>
+  <li class="eu51"><a href="#">Scotland</a></li>
+  <li class="eu52"><a href="#">Wales</a></li>
+-->
+ </ul>
+</div>
     </div>
     <!-- CSSMap SCRIPT -->
     <script type="text/javascript" src="https://cssmapsplugin.com/5/jquery.cssmap.min.js"></script>
@@ -58,7 +104,7 @@
 $(document).ready(function(){
 
 // CSSMap;
-$("#map-continents").CSSMap({
+$("#map-europe").CSSMap({
   "size": 1280,
   "tooltips": false,
   "responsive": "auto",

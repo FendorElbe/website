@@ -41,12 +41,12 @@
       <!-- CSSMap - Continents -->
       <div id="map-continents">
         <ul class="continents">
-          <li class="c1"><a href="nothing.html">Afrika</a></li>
-          <li class="c2"><a href="nothing.html">Asien</a></li>
-          <li class="c3"><a href="nothing.html">Australien</a></li>
-          <li class="c4"><a href="http://google.de">Europa</a></li>
-          <li class="c5"><a href="nothing.html">Nordamerika</a></li>
-          <li class="c6"><a href="nothing.html">Südamerika</a></li>
+          <li class="c1"><a href="#">Afrika</a></li>
+          <li class="c2"><a href="#">Asien</a></li>
+          <li class="c3"><a href="#">Australien</a></li>
+          <li class="c4"><a href="europe.php">Europa</a></li>
+          <li class="c5"><a href="#">Nordamerika</a></li>
+          <li class="c6"><a href="#">Südamerika</a></li>
         </ul>
       </div>
       <!-- END OF THE CSSMap - Continents -->
