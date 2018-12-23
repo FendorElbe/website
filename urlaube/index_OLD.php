@@ -14,43 +14,47 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
 
-    <!-- CSSMap STYLESHEET - CONTINENTS -->
-    <link rel="stylesheet" type="text/css" href="cssmap-continents/cssmap-continents.css" media="screen" />
-
     <link rel="stylesheet" href="custom.css">
 
     <title>Urlaube</title>
   </head>
   <body>
+    <div class="container p-5">
 
-    <!-- CSSMap - Continents -->
-    <div id="map-continents">
-     <ul class="continents">
-      <li class="c1"><a href="#africa">Afrika</a></li>
-      <li class="c2"><a href="#asia">Asien</a></li>
-      <li class="c3"><a href="#australia">Australien</a></li>
-      <li class="c4"><a href="#europe">Europa</a></li>
-      <li class="c5"><a href="#north-america">Nordamerika</a></li>
-      <li class="c6"><a href="#south-america">Südamerika</a></li>
-     </ul>
+      <?php
+      $directories = glob("." . '/*', GLOB_ONLYDIR);
+      foreach ($directories as $directory){
+        $info_lines = file($directory."/info.txt");
+        $first = true;
+        $text = "";
+        foreach ($info_lines as $line){
+          if(!$first){
+            $text .= "<p>".$line."</p>";
+          }
+          else {
+            $first = false;
+          }
+        }
+        echo '
+          <div class="row clickable-row m-2" data-href="'.$directory.'/index.php" style="cursor: pointer">
+            <div class="col-4">
+              <img class="img-thumbnail" src="'.$directory.'/thumb.jpg" alt="Card image cap">
+            </div>
+            <div class="col-8 col-right">
+              <h3>'.$info_lines[0].'</h3>
+              '.$text.'
+            </div>
+          </div>
+        ';
+      }
+      ?>
+
     </div>
-    <!-- END OF THE CSSMap - Continents -->
 
-    <!-- CSSMap SCRIPT -->
-    <script type="text/javascript" src="https://cssmapsplugin.com/5/jquery.cssmap.min.js"></script>
-
-    <script type="text/javascript">
-    $(document).ready(function(){
-
-      // CSSMap;
-      $("#map-continents").CSSMap({
-        "size": 1280,
-        "tooltips": "floating-top-center",
-        "responsive": {}
+    <script>
+      $(".clickable-row").click(function() {
+        window.location = $(this).data("href");
       });
-      // END OF THE CSSMap;
-
-    });
     </script>
   </body>
 </html>
