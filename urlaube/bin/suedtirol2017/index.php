@@ -65,7 +65,20 @@
 
           <div id="default" class="container-fluid container-custom">
             <div class="container-fluid p-3">
-              Bitte wähle einen Tag auf der linken Seite aus!
+              <?php
+              $info = file("info.txt");
+              $first = true;
+              foreach ($info as $info_line){
+                if($first){
+                  echo '<h3>'.$info_line.'</h3>';
+                  $first = false;
+                }
+                else {
+                  echo '<p>'.$info_line.'</p>';
+                }
+              }
+              echo '<p>Bitte wähle einen Tag auf der linken Seite aus!</p>';
+              ?>
             </div>
           </div>
           <div id="slideshow" class="container-fluid container-custom d-none">
