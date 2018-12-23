@@ -36,6 +36,7 @@
             <li class="active sidebarli">
                 <a href="#" class="btnHome">Home</a>
             </li>
+            <hr />
             <?php
             $directories = glob("." . '/*', GLOB_ONLYDIR);
             foreach ($directories as $directory){
@@ -63,7 +64,9 @@
           </nav>
 
           <div id="default" class="container-fluid container-custom">
-            Das hier ist default
+            <div class="container-fluid p-3">
+              Bitte wähle einen Tag auf der linken Seite aus!
+            </div>
           </div>
           <div id="slideshow" class="container-fluid container-custom d-none">
           </div>
