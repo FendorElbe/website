@@ -37,7 +37,7 @@
     </div>
   </nav>
 
-    <div class="container">
+    <div class="container p-3">
       <!-- CSSMap - Continents -->
       <div id="map-continents">
         <ul class="continents">
