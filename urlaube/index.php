@@ -45,7 +45,7 @@ $(document).ready(function(){
 // CSSMap;
 $("#map-continents").CSSMap({
   "size": 1280,
-  "tooltips": "floating-top-center",
+  "tooltips": false,
   "responsive": "auto",
   "tapOnce": true,
   "mobileSupport": true,
