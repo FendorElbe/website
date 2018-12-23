@@ -105,7 +105,7 @@ $(document).ready(function(){
 
 // CSSMap;
 $("#map-europe").CSSMap({
-  "size": 960,
+  "size": 750,
   "tooltips": false,
   "responsive": "auto",
   "tapOnce": true,
