@@ -48,7 +48,8 @@ $("#map-continents").CSSMap({
   "tooltips": "floating-top-center",
   "responsive": "auto",
   "tapOnce": true,
-  "mobileSupport": true
+  "mobileSupport": true,
+  "loadingText": ""
 });
 // END OF THE CSSMap;
 
