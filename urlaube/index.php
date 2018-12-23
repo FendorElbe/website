@@ -22,20 +22,20 @@
     <title>Urlaube</title>
   </head>
   <body>
-
-    <!-- CSSMap - Continents -->
-    <div id="map-continents">
-     <ul class="continents">
-      <li class="c1"><a href="#africa">Afrika</a></li>
-      <li class="c2"><a href="#asia">Asien</a></li>
-      <li class="c3"><a href="#australia">Australien</a></li>
-      <li class="c4"><a href="#europe">Europa</a></li>
-      <li class="c5"><a href="#north-america">Nordamerika</a></li>
-      <li class="c6"><a href="#south-america">Südamerika</a></li>
-     </ul>
+    <div class="container">
+      <!-- CSSMap - Continents -->
+      <div id="map-continents">
+        <ul class="continents">
+          <li class="c1"><a href="#">Afrika</a></li>
+          <li class="c2"><a href="#">Asien</a></li>
+          <li class="c3"><a href="#">Australien</a></li>
+          <li class="c4"><a href="#">Europa</a></li>
+          <li class="c5"><a href="http://google.de">Nordamerika</a></li>
+          <li class="c6"><a href="#">Südamerika</a></li>
+        </ul>
+      </div>
+      <!-- END OF THE CSSMap - Continents -->
     </div>
-    <!-- END OF THE CSSMap - Continents -->
-
     <!-- CSSMap SCRIPT -->
     <script type="text/javascript" src="https://cssmapsplugin.com/5/jquery.cssmap.min.js"></script>
 
