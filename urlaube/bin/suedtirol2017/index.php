@@ -34,7 +34,7 @@
 
           <ul class="list-unstyled components">
             <li class="active sidebarli">
-                <a href="#" class="btnHome">Home</a>
+                <a href="#" class="btnHome">Übersicht</a>
             </li>
             <hr />
             <?php
